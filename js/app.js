@@ -24,22 +24,22 @@ $(document).ready(function() {
   	$('.ryu_power').hide();
   	$('.hadouken').hide();
   	$('.ryu_ready').show();
-  })
+  });
   $(document).keydown(function(e) {
     if (e.keyCode == 88) {
       $('.ryu_ready').hide(); 
       $('.ryu_cool').show();
-    };   
-  })
+    }   
+  });
   $(document).keyup(function(e) {
     if (e.keyCode == 88) {
       $('.ryu_cool').hide();
       $('.ryu_ready').show();
       $(this).stop();
-    };
+    }
   });
   //Intro // // Hides Canvas //
-  $('.hidden').hide();
+$('.hidden').hide();
 $('.developer h1').fadeIn(3000);
 $('.hidden').fadeIn(6000);
 });
