@@ -39,6 +39,9 @@ $(document).ready(function() {
     };
   });
   //Intro // // Hides Canvas //
+  $('.hidden').hide();
+$('.developer h1').fadeIn(3000);
+$('.hidden').fadeIn(6000);
 });
 // Sets volume, loads and plays sounds when used //
 function playHadouken() {
